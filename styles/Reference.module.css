@@ -1,0 +1,49 @@
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 3rem;
+}
+.photo{
+  background: #4d77ff;
+  border-radius: 100% 100% 0 0;
+  margin-right: 2rem;
+}
+.content_right {
+  margin-left: 1rem;
+}
+.title {
+  color: #4d77ff;
+  margin-bottom: 2rem;
+}
+.text {
+  font-size: 40px;
+  font-weight: 600;
+}
+.paragraph {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.message {
+  margin: 1rem;
+}
+.affirmation {
+  margin-bottom: 1rem;
+}
+.btn_doctors {
+  margin-top: 2rem;
+  padding: 1.2rem;
+  color: white;
+  background-color: #4d77ff;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 1rem;
+  font-size: 1rem;
+  border: none;
+}
+
+@media screen and (max-width: 1150px){
+  .content{
+    grid-template-columns: 1fr;
+  }
+}
